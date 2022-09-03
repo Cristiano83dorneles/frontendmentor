@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(14, 14, 23);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    color: rgba(240, 248, 255, 0.459);
+    font-size: 10px;
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+main {
+    background-color: rgba(86, 85, 85, 0.327);
+    width: 350px;
+    margin: auto;
+    color: white;
+}
+
+section {
+    border-bottom: 18px solid rgb(14, 14, 23);
+    margin: 5px 0px 30px 0px;
+    color: rgb(85, 85, 85);
+    font-size: 2em;
+    text-indent: 15px;
+}
+
+#tam {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.652);
+}
+
+#ivalor { 
+    margin-left: 140px;
+    font-size: 1.5em;
+    color: rgba(127, 255, 212, 0.661);
+}
+
+#itamanho {
+    -webkit-appearance: none;
+    width: 300px;
+    margin-left: 25px;
+    cursor: pointer;
+    accent-color: rgb(216, 216, 216);
+    background-color: black;
+    height: 5px;
+    border-radius: 2px;    
+}
+
+#opcoes {
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 300px;
+    height: 140px;
+    font-size: 0.8em;
+}
+
+.container {
+    display: block;
+    cursor: pointer;
+}
+
+#forca {
+    margin: 0px 0px 20px 0x;
+}
+
+#forca {
+    margin: auto;
+    width: 300px;
+    padding: 15px 0px 15px 0;
+    background-color: rgba(0, 0, 0, 0.423);
+    font-size: 0.7em;
+    text-indent: 20px;
+    color: rgba(255, 255, 255, 0.486);
+}
+
+#generate {
+    width: 300px;
+    margin: 25px;
+    padding: 10px 0px 10px 0px;
+    font-size: 0.7em;
+
+}
+
+
+
