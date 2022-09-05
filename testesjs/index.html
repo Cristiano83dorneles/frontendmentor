@@ -7,24 +7,50 @@
     <title>Documento</title>
     <style>
         
-        #user {
-            appearance: initial;
-            background-color: rgb(6, 6, 6);
-            height: 2px;
-            cursor: pointer;
-            
-         
+        .slider {
+            position: absolute;
+            display: flex;
+            align-items: center;
         }
 
-        #ivalue {
-            color: rgb(0, 195, 255);
-                    }
+        .slider p {
+            color: rgb(0, 118, 14);
+            font-size: 30px;
+        }
+
+        .slider input[type="range"] {
+            -webkit-appearance: none;
+            width: 200px;
+            height: 5px;
+            background-color: black;
+            border: none;
+            outline: none;
+        }
+
+        .slider input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: rgb(255, 0, 0);
+            cursor: pointer;
+        }
+
+        .slider input[type="range"]::-webkit-slider-runnable-track {
+            background: green;
+            height: 5px;
+        }
+
+
     </style>
 </head>
 <body>
-    <label for="user">
-        <input type="range" name="uso" id="user" min="0" max="10" step="1" oninput="ivalue.innerHTML = Number(user.value) "><span class="estilo"></span><output id="ivalue">5</output>
-    </label>
+    
+        <div class="slider">
+            <input type="range" name="uso" id="user" min="0" max="10" step="1" oninput="ivalue.innerHTML = Number(user.value) "><output id="ivalue">5</output>
+            <p id="rangevalue"></p>
+        </div>
+
     <script src="teste.js"></script>
 </body>
 </html>
