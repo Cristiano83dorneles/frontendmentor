@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <style>
+        
+        #user {
+            appearance: initial;
+            background-color: rgb(6, 6, 6);
+            height: 2px;
+            cursor: pointer;
+            
+         
+        }
+
+        #ivalue {
+            color: rgb(0, 195, 255);
+                    }
+    </style>
+</head>
+<body>
+    <label for="user">
+        <input type="range" name="uso" id="user" min="0" max="10" step="1" oninput="ivalue.innerHTML = Number(user.value) "><span class="estilo"></span><output id="ivalue">5</output>
+    </label>
+    <script src="teste.js"></script>
+</body>
+</html>

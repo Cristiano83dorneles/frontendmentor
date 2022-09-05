@@ -55,23 +55,63 @@ section {
     margin-left: 25px;
     cursor: pointer;
     accent-color: rgb(216, 216, 216);
-    background-color: black;
+    background-color: rgb(14, 14, 23);
     height: 5px;
     border-radius: 2px;    
 }
 
+#itamanho:hover {
+    background-color: green;
+}
+
+
 #opcoes {
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 55px;
     width: 300px;
     height: 140px;
     font-size: 0.8em;
 }
 
 .container {
-    display: block;
+    font-size: 1.2em;
+}
+
+.container input {
+    display: none;
     cursor: pointer;
 }
+
+.container span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border: 1px solid white;
+    margin-left: -200px;
+    cursor: pointer;
+}
+
+.container > .upper {
+    margin-left: -256px;
+}
+
+.container > .lower {
+    margin-left: -265px;
+}
+
+.container > .numb {
+    margin-left: -237px;
+}
+
+.container > .symb {
+    margin-left: -246px;
+}
+
+.container input:checked + span {
+    background-color: rgb(95, 192, 30);
+}
+
 
 #forca {
     margin: 0px 0px 20px 0x;

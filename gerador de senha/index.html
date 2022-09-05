@@ -25,20 +25,23 @@
         </p>
         
         <p id="opcoes">
-            <label class="container"><input type="checkbox" name="classcont" id="iconteiner"> Include Uppercase Letters <span class="checmark"></span></label> <br>
+            <label class="container"><input type="checkbox" name="classcont" id="iconteiner"> Include Uppercase Letters<span class="upper"></span></label> <br>
 
-            <label class="container"><input type="checkbox" name="classcont" id="iconteinera"> Include Lowercase Letters <span class="checmark"></span></label> <br>
+            <label class="container"><input type="checkbox" name="classcont" id="iconteinera"> Include Lowercase Letters <span class="lower"></span></label> <br>
 
-            <label class="container"><input type="checkbox" name="classcont" id="iconteinerb"> Include Number Letters <span class="checmark"></span></label> <br>
+            <label class="container"><input type="checkbox" name="classcont" id="iconteinerb"> Include Number Letters <span class="numb"></span></label> <br>
 
-            <label class="container"><input type="checkbox" name="classcont" id="iconteinerc"> Include Symbols Letters <span class="checmark"></span></label>
+            <label class="container"><input type="checkbox" name="classcont" id="iconteinerc"> Include Symbols Letters <span class="symb"></span></label>
 
         </p>
-        <div id="forca">STRENGHT</div>
+        <div id="forca" onclick="pointermove()">STRENGHT</div>
+        <div class="res"></div>
         <p>
             <input id="generate" type="button" value="GENERATE    &#8677;">
         </p>
     </main>
+
+    <script src="script.js"></script>
     
 </body>
 </html>
