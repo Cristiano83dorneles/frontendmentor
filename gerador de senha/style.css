@@ -112,19 +112,65 @@ section {
     background-color: rgb(95, 192, 30);
 }
 
-
-#forca {
-    margin: 0px 0px 20px 0x;
+#fc {
+    display: flex;
+    width: 300px;
+    height: 80px;
+    margin-left: 27px;
+    background-color: rgba(0, 0, 0, 0.423);
+    
 }
 
 #forca {
     margin: auto;
-    width: 300px;
-    padding: 15px 0px 15px 0;
-    background-color: rgba(0, 0, 0, 0.423);
-    font-size: 0.7em;
-    text-indent: 20px;
+    width: 70px;
+    height: 15px;
+    margin-top: 30px;
+    font-size: 0.4em;
     color: rgba(255, 255, 255, 0.486);
+    text-align: center;
+    
+}
+
+#força1 {
+    -webkit-appearance: none;
+    width: 8px;
+    height: 40px;
+    margin-top: 15px;
+    border: 2px solid white;   
+}
+
+#força2 {
+    -webkit-appearance: none;
+    width: 8px;
+    height: 40px;
+    margin-top: 15px;
+    border: 2px solid white;
+}
+
+#força3 {
+    -webkit-appearance: none;
+    width: 8px;
+    height: 40px;
+    margin-top: 15px;
+    border: 2px solid white;
+}
+
+#força4 {
+    -webkit-appearance: none;
+    width: 8px;
+    height: 40px;
+    margin-top: 15px;
+    border: 2px solid white;
+    margin-right: 15px;
+}
+
+#inivel {
+    height: 20px;
+    width: 75px;
+    background-color: rgba(18, 18, 18, 0.423);
+    border: none;
+    border: 1px solid white;
 }
 
 #generate {
@@ -132,7 +178,18 @@ section {
     margin: 25px;
     padding: 10px 0px 10px 0px;
     font-size: 0.7em;
+    background-color: rgba(18, 18, 18, 0.423);
+    color: white;
+    border: 1px solid rgb(110, 253, 1);
+}
 
+#generate:hover {
+    background-color: green;
+    color: black;
+    font-size: 1em;
+    cursor: pointer;
+    font-style: italic;
+    font: bolder;
 }
 
 
