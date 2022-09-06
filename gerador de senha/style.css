@@ -16,15 +16,20 @@ header {
     width: 350px;
     margin: auto;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 10px;
 }
 
 main {
-    background-color: rgba(86, 85, 85, 0.327);
+    background-color: rgba(114, 114, 114, 0.327);
     width: 350px;
     margin: auto;
     color: white;
+}
+
+#password {
+    background-color: rgba(114, 114, 114, 0.327);
+    font-size: 1em;
 }
 
 section {
@@ -86,7 +91,7 @@ section {
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-color: black;
+    background-color: rgb(10, 10, 10);
     border: 1px solid white;
     margin-left: -200px;
     cursor: pointer;
@@ -117,8 +122,8 @@ section {
     width: 300px;
     height: 80px;
     margin-left: 27px;
-    background-color: rgba(0, 0, 0, 0.423);
-    
+    background-color: rgba(3, 3, 3, 0.423);
+    border: 1px solid rgb(31, 30, 30);    
 }
 
 #forca {
@@ -126,10 +131,9 @@ section {
     width: 70px;
     height: 15px;
     margin-top: 30px;
-    font-size: 0.4em;
+    font-size: 0.5em;
     color: rgba(255, 255, 255, 0.486);
     text-align: center;
-    
 }
 
 #força1 {
@@ -137,6 +141,7 @@ section {
     width: 8px;
     height: 40px;
     margin-top: 15px;
+    margin-left: -30px;
     border: 2px solid white;   
 }
 
@@ -167,10 +172,12 @@ section {
 
 #inivel {
     height: 20px;
-    width: 75px;
-    background-color: rgba(18, 18, 18, 0.423);
+    width: 65px;
+    background-color: rgba(30, 29, 29, 0.423);
     border: none;
-    border: 1px solid white;
+    text-align: center;
+    translate: -50% -50%;
+    margin-left: 40px;
 }
 
 #generate {
@@ -178,7 +185,7 @@ section {
     margin: 25px;
     padding: 10px 0px 10px 0px;
     font-size: 0.7em;
-    background-color: rgba(18, 18, 18, 0.423);
+    background-color: rgba(53, 51, 51, 0.423);
     color: white;
     border: 1px solid rgb(110, 253, 1);
 }
